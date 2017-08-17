@@ -1,0 +1,8 @@
+String[] cmd = new String[2];
+
+		cmd[0] = "C:\\Users\\DELL\\Desktop\\Autoit\\Test.exe";
+		cmd[1] = "C:\\Users\\Public\\Pictures\\Sample Pictures\\Desert.jpg"; 
+		
+	Process p=Runtime.getRuntime().exec(cmd);
+	
+	p.destroy();
